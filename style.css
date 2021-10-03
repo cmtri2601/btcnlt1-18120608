@@ -1,0 +1,200 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: #eee;
+}
+
+body p, body i {
+  color: #888;
+}
+
+body h5 {
+  margin-bottom: 1rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+.btn-sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-sale .btn-purchase, .btn-sale .btn-tour {
+  color: #666;
+  margin: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 1.5rem;
+  border: 5px solid #eee;
+  background-color: #b8c6db;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#abb0b8), color-stop(74%, #e6e6e6));
+  background-image: linear-gradient(0deg, #abb0b8 0%, #e6e6e6 74%);
+}
+
+.btn-sale .btn-text {
+  padding: 1.5rem 0;
+}
+
+.btn-sale .btn-purchase {
+  background-color: #ff4e00;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ff4e00), color-stop(74%, #ffb24e));
+  background-image: linear-gradient(0deg, #ff4e00 0%, #ffb24e 74%);
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 5px 5px rgba(255, 255, 255, 0.4);
+  z-index: 1000;
+}
+
+.container nav .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container nav .nav-left a {
+  margin: 0 0.3rem 0.4rem 0;
+  padding: 0;
+}
+
+.container nav .nav-left h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  display: inline-block;
+  color: #ee4b0b;
+}
+
+.container nav .nav-left p {
+  margin: 0 2rem;
+  padding-top: 0.3rem;
+  display: inline-block;
+}
+
+.container nav h6 {
+  margin: 0;
+  color: #ee4b0b;
+}
+
+.container .section1, .container .section2, .container .section3, .container .section4, .container .paymethod {
+  padding: 2rem 1.5rem;
+  margin: 0rem;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.container .section1 {
+  background-color: #fafafa;
+}
+
+.container .section2 .feature {
+  margin: 0;
+}
+
+.container .section2 .feature img {
+  width: 70px;
+}
+
+.container .section3 .orange {
+  color: #e46511;
+}
+
+.container .section4 .quote {
+  font-style: italic;
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #dbdbdb;
+}
+
+.container .section4 small {
+  margin-left: 2rem;
+}
+
+.container .paymethod {
+  color: #d8d8d8;
+  background-color: #333333;
+  border: #2e2e2e;
+}
+
+.container .paymethod p {
+  margin: 0.3rem 0;
+}
+
+.container .paymethod i {
+  font-size: 35px;
+  margin: 0.2rem;
+}
+
+.container .paymethod .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .paymethod .logo img, .container .paymethod .logo h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #bdbdbd;
+}
+
+.container .paymethod .logo img {
+  width: auto;
+  height: 40px;
+}
+
+.container footer {
+  margin: 0;
+  padding: 0.2rem;
+  background-color: black;
+}
+
+.container footer p {
+  margin: 0;
+}
+
+.container footer span {
+  color: #e46511;
+}
+
+.container footer .col-3 {
+  text-align: right;
+}
+
+.container footer .col-3 i {
+  margin: 0 0.1rem;
+  padding: 0;
+  font-size: 22px;
+}
